@@ -1,0 +1,78 @@
+/*styling.css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;600;700&family=Tourney:wght@100&family=Zen+Tokyo+Zoo&display=swap');
+
+
+body {
+  font-family: 'Tourney', cursive;
+    /* background: url(images/tree.jpg) center center fixed; */
+    background: url("https://tse4.mm.bing.net/th?id=OIP.Zj6eVidmDywP0CpJuRbnXQHaEo&pid=Api&P=0&h=220") center center fixed;
+    background-size: cover;
+    color: hsl(270, 57%, 97%);
+}
+
+/*title*/
+#header{
+    margin-top: 64px;
+    text-align: center;
+    font-size: 7vw;
+}
+
+/*Lap*/
+#lap{
+    text-align: right;
+    font-size: 4vw;
+}
+
+/*Time*/
+#time{
+    text-align: center;
+    font-size: 10vw;
+}
+
+/*Buttons*/
+#controlsContainer{
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.control{
+  color: white;
+  background-color: #222521;
+  height: 4vw;
+  width: 11vw;
+  border-radius: 1%;
+  text-align: center;
+  padding: 1% 0;
+  font-size: 2.5vw;
+  cursor: pointer;
+}
+
+.control:active{
+    background-color: #fff;
+    color: #000;
+}
+
+/*laps*/
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime{
+    font-size: 2em;
+    float: right;
+}
